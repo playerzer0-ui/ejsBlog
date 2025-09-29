@@ -1,0 +1,22 @@
+{
+  "6ba7b810-9dad-11d1-80b4-00c04fd430c8": {
+    "title": "Learning Node.js and Express",
+    "date": "2025-06-16",
+    "body": "In this post, I explore the fundamentals of Node.js and Express framework. We'll cover routing, middleware, and building scalable web applications."
+  },
+  "6ba7b811-9dad-11d1-80b4-00c04fd430c8": {
+    "title": "The Art of Web Development",
+    "date": "2025-06-17",
+    "body": "Web development is both an art and a science. This post discusses the creative aspects of building beautiful, functional websites that users love."
+  },
+  "6ba7b812-9dad-11d1-80b4-00c04fd430c8": {
+    "title": "JavaScript Tips and Tricks",
+    "date": "2025-06-18",
+    "body": "Discover some powerful JavaScript techniques that can make your code more efficient and readable. From arrow functions to async/await patterns."
+  },
+  "6ba7b813-9dad-11d1-80b4-00c04fd430c8": {
+    "title": "Building REST APIs with Express",
+    "date": "2025-06-19",
+    "body": "Learn how to build robust REST APIs using Express.js. We'll cover CRUD operations, error handling, and best practices for API design."
+  }
+}

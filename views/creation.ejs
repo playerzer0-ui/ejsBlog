@@ -1,0 +1,46 @@
+<%- include('components/header.ejs') %>
+
+<main>
+    <% if(locals.id) { %>
+    <form method="post" action="/edit/<%= id %>">
+        <div class="mb-3">
+            <label for="title" class="form-label">Title</label>
+            <input
+                type="title"
+                class="form-control"
+                id="title"
+                name="title"
+                value="<%= post.title %>"
+            />
+        </div>
+        <div class="mb-3">
+            <label for="bodyText" class="form-label"
+                >body</label
+            >
+            <textarea name="bodyText" class="form-control" id="bodyText"><%= post.body %></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+    <% } else { %>
+    <form method="post" action="/create">
+        <div class="mb-3">
+            <label for="title" class="form-label">Title</label>
+            <input
+                type="title"
+                class="form-control"
+                id="title"
+                name="title"
+            />
+        </div>
+        <div class="mb-3">
+            <label for="bodyText" class="form-label"
+                >body</label
+            >
+            <textarea name="bodyText" class="form-control" id="bodyText"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+    <% } %>
+</main>
+
+<%- include('components/footer.ejs') %>
